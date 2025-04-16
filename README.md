@@ -1,6 +1,6 @@
 # 🎮 Apptestpacman
 
-Projeto inspirado no jogo clássico Pacman, desenvolvido como prática de HTML5, CSS3 e (opcionalmente) JavaScript.
+Projeto inspirado no jogo clássico Pacman, desenvolvido como prática de HTML5, CSS3 e JavaScript.
 
 ## 💡 Objetivo
 Criar uma interface divertida e interativa, com layout temático e estilização personalizada, aprimorando conhecimentos em front-end.
@@ -8,13 +8,10 @@ Criar uma interface divertida e interativa, com layout temático e estilização
 ## 🛠️ Tecnologias Utilizadas
 - HTML5
 - CSS3
-- JavaScript (se usado)
-
-## 🖼️ Imagens do Projeto
-*Você pode adicionar uma imagem aqui: pressione `Add file` > `Upload file` e cole o link aqui depois.*
+- JavaScript 
 
 ## 🚀 Acesse o Projeto
-[🔗 Visualizar no GitHub Pages](https://leticiafeijo.github.io/Apptestpacman/) *(você pode ativar isso nas configurações do repositório)*
+[🔗 Visualizar no GitHub Pages](https://leticiafeijo.github.io/Apptestpacman/) 
 
 ## 📁 Como Executar
 1. Faça o download do repositório
