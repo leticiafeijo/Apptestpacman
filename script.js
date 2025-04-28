@@ -187,11 +187,17 @@ class Game {
 
     gameOver(won) {
         this.isGameOver = true;
-        const message = won ? 'Congratulations! You Won!' : 'Game Over!';
-        setTimeout(() => {
-            alert(`${message}\nFinal Score: ${this.score}\nPress OK to play again`);
-            window.location.reload();
-        }, 100);
+        const message = won ? 'Parabéns! Você venceu!' : 'Game Over!';
+        
+        // Exibir o botão de continuar
+        const continueButton = document.getElementById('continueButton');
+        continueButton.style.display = 'inline-block';
+        continueButton.textContent = `${message} - Clique para Continuar`;
+        
+        // Quando clicar no botão de continuar
+        continueButton.onclick = () => {
+            window.location.reload(); // Recarregar a página e reiniciar o jogo
+        };
     }
 
     gameLoop() {
